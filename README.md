@@ -20,6 +20,12 @@ This repository contains implementations of Neural Machine Translation (NMT) sys
 - Implementation of NMT using transformers built from scratch.
 - Utilizes self-attention mechanisms for capturing contextual information.
 - Offers a different approach compared to GRU-based models.
+  
+#### Training Configuration
+
+- **Encoder and Decoder Blocks:** 3 blocks each.
+- **Multi-Head Attention:** 4 heads.
+- **Embedding Dimension:** 128.
 
 ## Features
 
