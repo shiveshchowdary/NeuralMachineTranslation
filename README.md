@@ -27,6 +27,19 @@ This repository contains implementations of Neural Machine Translation (NMT) sys
 
 - **Transformer Model:** A separate implementation of NMT using transformers, showcasing a different architecture for machine translation.
 
+# Evaluation Results
+
+This section presents the BLEU scores for different models trained on translation tasks.
+
+| Model                               | BLEU Score |
+|-------------------------------------|------------|
+| Transformer                         | 0.52       |
+| GRU Encoder-Decoder with Attention  | 0.42       |
+| GRU Encoder-Decoder without Attention | 0.28     |
+
+These scores reflect the translation quality for each model, with higher BLEU scores indicating better performance. Feel free to explore the individual model sections for more details on their architectures and configurations.
+
+
 ## Dependencies
 
 Ensure you have the following dependencies installed:
