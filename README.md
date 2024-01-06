@@ -15,9 +15,17 @@ This repository contains implementations of Neural Machine Translation (NMT) sys
 - Uses GRU cells for both the encoder and decoder without incorporating attention.
 - Simpler architecture without attention mechanisms.
 
+### Model 3: Transformer-based Neural Machine Translation
+
+- Implementation of NMT using transformers built from scratch.
+- Utilizes self-attention mechanisms for capturing contextual information.
+- Offers a different approach compared to GRU-based models.
+
 ## Features
 
-- **Parallel Text Data:** Both models are trained on parallel text data, typically source and target language pairs, to learn translation patterns.
+- **Parallel Text Data:** Both GRU-based models are trained on parallel text data, typically source and target language pairs, to learn translation patterns.
+
+- **Transformer Model:** A separate implementation of NMT using transformers, showcasing a different architecture for machine translation.
 
 ## Dependencies
 
@@ -26,4 +34,3 @@ Ensure you have the following dependencies installed:
 - Python 3.x
 - PyTorch
 - NumPy
-
