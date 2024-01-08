@@ -2,6 +2,8 @@
 
 This repository contains implementations of Neural Machine Translation (NMT) systems using Gated Recurrent Unit (GRU) architecture and attention mechanism. There are three models included: one with GRU encoder-decoder and Bahdanau attention, and second with only GRU encoder-decoder without attention and third is a transformer architecture implemented from scratch.
 
+**A Flask Application was developed to deploy one of the model to practice**
+
 ## Models
 
 ### Model 1: GRU Encoder-Decoder with Bahdanau Attention
